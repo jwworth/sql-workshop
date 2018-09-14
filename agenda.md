@@ -1,14 +1,20 @@
-Tuesday, 21 Feb, 2017
-=====================
-9:00 Introduction && Reading Review
---------------------
+# Hashrocket / Code Platoon SQL Workshop Agenda
 
-9:30 Database Creation, Tutorials, && Exercises
---------------------
+This document outlines the plan for our workshop. We'll be breaking for 5
+minutes each hour.
 
-Throughout the day, we will create a PostgreSQL database and slowly build it up,
-covering the basics of SQL from a practical perspective. Format will be a short
-instruction and demonstration, followed by teacher-assisted solo and pair work.
+### 9:00 Greetings and Reading Review
+
+We'll get to know eachother and cover the assigned reading about databases.
+
+### 9:30 SQL at the PosgtreSQL REPL
+
+Maximize your terminal and your font!
+
+Throughout the day, we will create a PostgreSQL database and slowly add to it,
+covering the basics of SQL. Expect a short introduction to the command,
+followed by learning how it works via practice. One of our instructors will be
+walking around to make sure nobody gets stuck.
 
 - `create`
 - `select` columns and `*`
@@ -25,11 +31,9 @@ instruction and demonstration, followed by teacher-assisted solo and pair work.
 - `or`
 - `in`
 
-12:00 Lunch
---------------------
+### 12:00 Lunch
 
-1:00 Exercises
---------------------
+### 1:00 Exercises
 
 We will dive deeper into our database, exploring advanced keywords and working
 through more difficult data challenges.
@@ -39,15 +43,11 @@ through more difficult data challenges.
 - `null` (advanced)
 - Aggregate functions
 
-4:45 Homework
---------------------
-Assigned by instructor.
+### 3:00 Data Modeling Exercises
 
-## Challenges
-* [Postgres with Ruby](challenges/postgres-with-ruby)
-* [GrubHub Terminal](challenges/grubhub-terminal)
+We will model a familiar domain (timeclock, military unit, hotel) on the
+whiteboard.
 
+### 4:00 Q & A
 
-## Challenges
-* [Postgres with Ruby](https://github.com/CodePlatoon/postgres-with-ruby)
-* [GrubHub Terminal](https://github.com/CodePlatoon/grubhub-terminal)
+### 4:30 Homework assigned by instructor
