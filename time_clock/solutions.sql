@@ -38,6 +38,7 @@ group by last_name, first_name;
 --     Insert a new employee who has not worked any hours. Then make the query used in 3.2 show the new employee
 --     with 0 time worked.
 insert into employees(first_name, last_name, hire_date) values('William', 'Lancaster', '2018-09-15');
+
 select last_name, first_name,
   coalesce(sum(upper(time_range) - lower(time_range)), '00:00:00')
 from employees
