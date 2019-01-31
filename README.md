@@ -4,7 +4,7 @@ This is material for Hashrocket's SQL workshop at Code Platoon. SQL is a
 technology we are passionate about as a company, and we have enjoyed providing
 a hands-on deep-dive into this subject for Code Platoon cohorts over the years.
 
-Check the [Agenda](AGENDA.md) to see how the day will progress.
+Check the [Agenda](agenda.md) to see how the day will progress.
 
 ### Setup
 
