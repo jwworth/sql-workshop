@@ -1,13 +1,13 @@
 # Hashrocket / Code Platoon SQL Workshop Agenda
 
-This document outlines the plan for our workshop. We'll be breaking for 5
-minutes each hour.
+This document outlines the plan for our workshop. We'll be taking a short break
+once per hour.
 
 ### 9:00 Greetings and Reading Review
 
-We'll get to know eachother and cover the assigned reading about databases.
+We'll get to know each other and cover the assigned reading about databases.
 
-### 9:30 SQL at the PosgtreSQL REPL
+### 9:30 SQL at the PostgreSQL REPL
 
 Maximize your terminal and your font!
 
