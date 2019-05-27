@@ -1,0 +1,98 @@
+
+==
+story_type:
+  feature
+name:
+  Visitor views most recent cast
+description:
+  Given I am a visitor
+  When I land on the pgcasts site
+  Then I am presented with the most recent cast
+  And for the case I see
+  -cast image
+  -title
+  -author
+  -description
+
+labels:
+  pgcasts
+==
+story_type:
+  feature
+name:
+  Visitor views list of recent casts
+description:
+  Given I am a visitor viewing the home page for pgcasts
+  When there are recent casts
+  Then I see up to N number of recent videos as dictated by design
+  And the videos are sorted in descending order by date
+  And for each video I see
+  -thumbnail cast image
+  -title
+  -author
+
+labels:
+  pgcasts
+==
+story_type:
+  feature
+name:
+  Visitor views show page for a cast
+description:
+  Given I am a visitor viewing the landing page for a cast
+  When I click a cast
+  Then I am taken to the show page for that cast
+  And for the cast I see
+  -video player
+  -title
+  -author
+  -description
+  -tag list
+
+labels:
+  pgcasts
+==
+story_type:
+  feature
+name:
+  Visitor views transcript for a cast
+description:
+  Given I am a visitor viewing a cast's show page
+  When I click transcript
+  Then I am presented with the transcript for the cast
+
+labels:
+  pgcasts
+==
+story_type:
+  feature
+name:
+  Visitor views additional resources for a cast
+description:
+  Given I am a visitor viewing a cast's show page
+  When I click additional resources
+  Then I am taken to a list of additional resources to the cast
+  And for the each resource I see
+  -title
+  -content
+  -link
+
+labels:
+  pgcasts
+==
+story_type:
+  feature
+name:
+  Visitor views all videos associated with a tag
+description:
+  Given I am a visitor viewing a video's show page
+  When I click a tag
+  Then I am taken to the results page for that tag
+  And I see a list of videos associated with that tag
+  And for each video I see
+  -image
+  -author
+  -title
+
+labels:
+  pgcasts

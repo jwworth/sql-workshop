@@ -1,0 +1,117 @@
+==
+story_type:
+  feature
+name:
+  User signs in
+description:
+  In order to access the bookstore
+  As a user on the sign in page
+  I want to sign in
+
+  -has a place to enter email address
+  -has a place to enter password
+  -click sign in
+  --system takes me to index page
+
+labels:
+  books
+==
+story_type:
+  feature
+name:
+  Customer views books index page
+description:
+  In order to browse books
+  As a customer
+  I want to view the index page
+
+  -click books
+  -a list of books is present
+  -for each book I see
+  --book image
+  --title
+  --author
+  --price formatted to currency
+
+labels:
+  books
+==
+story_type:
+  feature
+name:
+  Customer views book details page
+description:
+  In order to discern if I want to buy a book
+  As a customer on the index page
+  I want to view the details for a book
+
+  -click book title
+  --book details page is displayed
+  -for that book I see
+  --book image
+  --title
+  --series
+  --author
+  --price formatted to currency
+  --description
+
+labels:
+  books
+==
+story_type:
+  feature
+name:
+  User creates an affiliate link for a book
+description:
+  In order to make money via affiliate links
+  As a user on the book details page
+  I want to add an affiliate link
+
+  -has a place to enter source
+  -click add source
+  -affiliate link is visible on book detail page
+  -for that link I see
+  --source
+  --affiliate link URL (url to book detail page appended with /source)
+  --number of visits from that source to date with a default of zero
+  -affiliate link is only visible to me when signed in
+
+labels:
+  books
+==
+story_type:
+  feature
+name:
+  System increments visit count for click through from affiliate link
+description:
+  In order to make money via affiliate links
+  As a user who has setup an affiliate link
+  I want the system to increment my visit count
+
+  -For affiliate links I have created for myself
+  -visit count incremented by one for each visit from that affiliate link
+
+labels:
+  books
+==
+story_type:
+  feature
+name:
+  Customer purchases a book
+description:
+  In order to buy a book
+  As a customer on the book details page
+  I want a mechanism to purchase a book
+
+  -click purchase book
+  -purchase confirmation page is displayed
+  -copy "Thank You for Your Purchase" is present
+  -copy "You’ll be receiving the book below in 4 - 5 business days." is present
+  -for the book I purchased I see
+  --book image
+  --title
+  --author
+  --price
+
+labels:
+  books

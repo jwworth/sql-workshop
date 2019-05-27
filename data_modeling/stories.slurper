@@ -1,0 +1,298 @@
+
+==
+story_type:
+  feature
+name:
+  User logs in with google apps account
+description:
+  Given I am a user on the login page
+  When I provide my valid google apps login and password
+  Then I am logged into the system
+  And I am taken to the hashboard
+
+labels:
+  accounts
+==
+story_type:
+  feature
+name:
+  User views schedule management page
+description:
+  Given I am a user
+  And I am logged when
+  When I go to /admin
+  Then I am taken to the schedule management page
+
+labels:
+  schedule management
+==
+story_type:
+  feature
+name:
+  User views personnel list
+description:
+  Given I am a user logged into the admin site
+  When I click personnel
+  Then I am taken to the personnel page
+  And I see a list of personnel in the system
+  And for each person I see
+  -First name
+  -Last name
+
+labels:
+  personnel
+==
+story_type:
+  feature
+name:
+  User adds a person
+description:
+  Given I am a user on the personnel page
+  When I provide
+  -First Name
+  -Last Name
+  And I select role from
+  -Developer
+  -Designer
+  -Project Manager
+  And I upload an image
+  And I click save changes
+  Then I see the users name appear in the person list
+
+labels:
+  personnel
+==
+story_type:
+  feature
+name:
+  User edits a person
+description:
+  Given I am a user on the personnel page
+  When I click a persons name
+  Then I see their information populated in the form
+  And I have a place to edit
+  -First name
+  -Last name
+  -Role
+  -Image
+  And when I save the user
+  Then I see my changes persisted in the user list
+
+labels:
+  personnel
+==
+story_type:
+  feature
+name:
+  User views project list
+description:
+  Given I am a user logged into the admin site
+  When I click projects
+  Then I am taken to the projects page
+  And I see a list of all projects in the system
+  And for each project I see
+  -Name
+
+labels:
+  projects
+==
+story_type:
+  feature
+name:
+  User adds a project
+description:
+  Given I am a user on the project management page
+  When I click add project
+  And I provide project name
+  And I have a place to select designers from designers in the system
+  And I have a place to select project managers from PMs in the system
+  And I have a place to indicate if the project is active 
+  And I click save
+  Then I see the project added to the project list
+
+labels:
+  project management
+==
+story_type:
+  feature
+name:
+  User edits a project
+description:
+  Given I am a user on the project management page
+  When I click a project
+  And I see the projects attributes populated in the form
+  And I have a place to edit
+  -Name
+  -Designer
+  -Project manager
+  -Active indicator
+  And when I save the project
+  Then I see my changes persisted in the project list
+
+labels:
+  project management
+==
+story_type:
+  feature
+name:
+  User views date columns on schedule management page
+description:
+  Given I am a user logged into the admin site
+  When I click schedule 
+  And I am taken to the schedule management page
+  Then I see a column representing the current week
+  And I see columns representing the next 10 weeks into the future
+
+labels:
+  schedule management
+==
+story_type:
+  feature
+name:
+  User views bench for a week 
+description:
+  Given I am a user viewing the schedule management page
+  When developers are not assigned to a project
+  Then I see their names listed in the bench for the week they are not assigned to project
+
+labels:
+  schedule management
+==
+story_type:
+  feature
+name:
+  User views list of active projects
+description:
+  Given I am a user viewing the schedule management page
+  When projects have been made active
+  Then I see a list of active projects in the system
+  And for each project I see
+  -Name
+
+labels:
+  schedule management
+==
+story_type:
+  feature
+name:
+  User adds pair to a project
+description:
+  Given I am a user on the schedule management page
+  When I click add pair for a project
+  Then I see an empty pair added to the project for the visible duration
+
+labels:
+  schedule management 
+==
+story_type:
+  feature
+name:
+  User assigns developers to pair for a project
+description:
+  Given I am a user viewing the schedule management page
+  And I have added a pair to a project
+  When I select from
+  -Developers in the system
+  -"empty"
+  Then those developers are assigned to that pair
+
+labels:
+  schedule management
+==
+story_type:
+  feature
+name:
+  User adds developer currently on another project to another project for the same week
+description:
+  Given I am a user viewing the schedule management page
+  When I select a developer as a pair for a project
+  And that developer is currently assigned to another project
+  Then I see their name removed from the project they were on
+  And they are assigned to the new project
+
+labels:
+  schedule management
+==
+story_type:
+  feature
+name:
+  User changes pair for a project
+description:
+  Given I am a user viewing the schedule management page
+  When I click a week within the project
+  Then I am presented with a place to select the developers for the pair for the project
+  And that pair is assigned to the project beginning that week for the duration of the project
+
+labels:
+  schedule management
+==
+story_type:
+  feature
+name:
+  User inserts pair on a project
+description:
+  Given I am a user viewing the schedule management page
+  And a project is assigned a pair
+  And that pair changes later in the project
+  When I insert a pair between the two previously specified pair
+  And I select developers for the pair
+  Then those developers are reflected as being assigned to the project for the inserted week and every week forward until the previously specified pair
+
+  For example. If I have pair 1 assigned week 1 and pair 2 assigned week 8 and I insert a pair 3 in week 4, then I see pair 3 assigned to weeks 4 through 7
+
+labels:
+  schedule management
+==
+story_type:
+  feature
+name:
+  User removes a pair from the project
+description:
+  Given I am a user viewing the schedule management page
+  When I click remove for a pair 
+  Then that pair is removed from the project and reflected as such until (if) the next pair is assigned
+
+labels:
+  schedule management
+==
+story_type:
+  feature
+name:
+  User removes all pairs from the project
+description:
+  Given I am a user viewing the schedule management page
+  When I click remove all pairs
+  Then all pairs are removed from the project
+
+labels:
+  schedule management
+==
+story_type:
+  feature
+name:
+  User edits notes for a week
+description:
+  Given I am a user viewing the schedule management page
+  When I click edit notes for a week
+  And I provide notes
+  And I click save
+  And I click edit notes for that week
+  Then I see my notes persisted
+
+labels:
+  schedule management
+==
+story_type:
+  feature
+name:
+  User adds additional pair to a project
+description:
+  Given I am a user viewing the schedule management page
+  When I click add pair for a project
+  And that project already has pairs assigned to it
+  Then a new row is added for the new pair
+  And I have a place to select from developers in the system to assign the pair
+  And the business rules for the new row are consistent with the initial row
+
+labels:
+  schedule management
