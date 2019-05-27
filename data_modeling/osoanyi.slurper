@@ -1,0 +1,225 @@
+
+==
+story_type:
+  feature
+name:
+  User signs up
+description:
+  When I visit the homepage
+  When I click 'Sign up'
+  Then I see the Facebook authentication modal
+  When I enter valid Facebook credentials
+  And I agree to let Osoanyi to access my information
+  Then I see my details page
+
+labels:
+  signup
+
+==
+story_type:
+  feature
+name:
+  User tries to sign up with invalid credentials
+description:
+  When I visit the homepage
+  When I click 'Sign up'
+  Then I see the Facebook authentication modal
+  When I enter invalid Facebook credentials
+  Then I see a message telling me I could not authenticate
+
+labels:
+  signup
+
+==
+story_type:
+  feature
+name:
+  User enters ideal run
+description:
+  Given I have signed up through Facebook
+  Then I see the 'what's your ideal run?' page
+  And I see a message 'we'll try to find a run that matches your preferences'
+  When I select my running level
+  And I enter a time
+  And I choose a location
+  And I choose a duration (default 30 minutes)
+  When I click 'run'
+  Then I see the runs page with a list of possible matches
+
+labels:
+  joining run, signup
+
+==
+story_type:
+  feature
+name:
+  User views run details
+description:
+  Given I have entered my ideal run
+  And I am on the runs page
+  If I see a run that works for me
+  When I click on a run
+  Then the run details expand
+  Then I see running level, time, location, duration
+  And I see a map of the starting point
+  And I see the details of the person who created the run
+  And I see the number of people who have signed up for the run
+
+labels:
+  run details, signup
+
+==
+story_type:
+  feature
+name:
+  User joins run
+description:
+  Given I am viewing a run on the runs page
+  When I click 'join run'
+  Then I see my dashboard
+  And I see the run and all of my runs
+
+labels:
+  joining run, dashboard
+  
+==
+story_type:
+  feature
+name:
+  User creates run from 'ideal run' page
+description:
+  Given I have filled out the 'what's your ideal run?' form
+  And I click 'let's go'
+  Then I see the runs page
+  If I don't find a run I like
+  Then I click 'create your own'
+  And the form expands in the list
+  And is filled with data from the 'what's your ideal run page?'
+  When I click 'create run'
+  Then I see my dashboard
+  And I see my run
+
+labels:
+  creating run, signup
+
+==
+story_type:
+  feature
+name:
+  User finds run from dashboard
+description:
+  Given I am on my dashboard
+  When I click 'find a run'
+  Then I see the 'what's your ideal run?'
+  When I fill out the form
+  Then I see a list of matching runs
+
+labels:
+  joining run
+
+==
+story_type:
+  chore
+name:
+  Specific copy on 'what's your ideal run?' page
+  
+description:
+  The copy on the 'what's your ideal run?' page should differ
+  based on whether or not you are a new user
+
+labels:
+  copy
+
+==
+story_type:
+  feature
+name:
+  User skips ideal run page
+description:
+  Given I have signed up through Facebook
+  And I am on the 'what's your ideal run?'
+  When I click 'skip'
+  Then I see the dashboard
+
+labels:
+  signup
+  
+
+==
+story_type:
+  feature
+name:
+  User views upcoming runs
+description:
+  Given I have signed in
+  And I am on my dashboard
+  And I have 3 upcoming runs
+  Then I see a list of my three next runs, ordered by the soonest
+  When I click on a run
+  Then the details expand in the list
+
+labels:
+  dashboard
+  
+==
+story_type:
+  feature
+name:
+  User views more upcoming runs
+description:
+  Given I have signed in
+  And I am on my dashboard
+  And I have 3+ upcoming runs
+  Then I see my next three runs
+  When I click 'view more'
+  Then I see a list of all my runs
+
+labels:
+  dashboard, runs list
+
+==
+story_type:
+  feature
+name:
+  User views past runs
+description:
+  Given I have signed in
+  And I am on my dashboard
+  And I have completed runs
+  When I click 'previous runs'
+  Then I see a list of my previous runs
+
+labels:
+  dashboard, previous runs
+
+==
+story_type:
+  feature
+name:
+  User blocks runner
+description:
+  Given I want to block a runner
+  When I visit my previous runs page
+  When I click on a previous run
+  Then I see a list of runners
+  When I click 'block' next to a runner's name
+  Then I see the block page
+  When I select a reason to block the runner
+  And I click 'block'
+  Then I'm see the dashboard
+
+labels:
+  blocking
+
+==
+story_type:
+  feature
+name:
+  User doesn't see a runner who has blocked them
+description:
+  Given a user has blocked me
+  And I search for a run that matches a run they've created
+  Then I don't see the run
+
+labels:
+  blocking
