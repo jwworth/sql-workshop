@@ -45,8 +45,8 @@ through more difficult data challenges.
 
 ### 3:00 Data Modeling Exercises
 
-We will model a familiar domain (timeclock, military unit, hotel) on the
-whiteboard.
+We will model one or more of the projects described in
+[data_modeling/exercise.md](data_modeling/exercise.md).
 
 ### 4:00 Q & A
 
