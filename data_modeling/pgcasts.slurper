@@ -8,7 +8,7 @@ description:
   Given I am a visitor
   When I land on the pgcasts site
   Then I am presented with the most recent cast
-  And for the case I see
+  And for the cast I see
   -cast image
   -title
   -author

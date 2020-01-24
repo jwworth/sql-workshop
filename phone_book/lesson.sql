@@ -129,7 +129,7 @@ delete from calls where id=LAST_ID;
 
 -- PostgreSQL can protect us with foreign key constraints.
 alter table calls
-add foreign key (contact_id) references calls(id);
+add foreign key (contact_id) references contacts(id);
 
 -- Try insert again.
 insert into calls(contact_id, call_duration)
@@ -186,7 +186,7 @@ group by contacts.id, contacts.name;
 
 -- The COALESCE function can convert nulls to some other value.
 select contacts.id, contacts.name,
-  coalesce(count(*), 0),
+  coalesce(count(calls.id), 0),
   coalesce(sum(call_duration), '00:00:00'),
   coalesce(avg(call_duration), '00:00:00')
 from contacts
