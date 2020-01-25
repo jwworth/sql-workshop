@@ -9,7 +9,7 @@ We'll get to know each other and cover the assigned reading about databases.
 
 ### 9:30 SQL at the PostgreSQL REPL
 
-Maximize your terminal and your font!
+*NOTE:* Please maximize your terminal window and your font size!
 
 Throughout the day, we will create a PostgreSQL database and slowly add to it,
 covering the basics of SQL. Expect a short introduction to the command,
