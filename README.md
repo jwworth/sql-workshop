@@ -14,8 +14,8 @@ Prerequisites: [PostgreSQL][pg]. If you can enter psql, we're in business:
 
 ```
 $ psql
-psql (11.1, server 9.5.17)
-user=#
+psql (11.1, server 11.6)
+you=#
 ```
 
 We'll be starting with the Phone Book domain.
