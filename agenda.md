@@ -9,12 +9,21 @@ We'll get to know each other and cover the assigned reading about databases.
 
 ### 9:30 SQL at the PostgreSQL REPL
 
-*NOTE:* Please maximize your terminal window and your font size!
+*General Advice:*
 
-Throughout the day, we will create a PostgreSQL database and slowly add to it,
-covering the basics of SQL. Expect a short introduction to the command,
-followed by learning how it works via practice. One of our instructors will be
-walking around to make sure nobody gets stuck.
+1. Try typing the commands into the REPL rather than copying and pasting; that
+   is the fastest way to learn! Tab-complete, `CTRL-R`, and `CTRL-P` (the up
+   arrow) are your friends.
+2. Please maximize your terminal window and your font size! The code should be
+   easy to read.
+3. If you get stuck, let us know! The error message contains the path forward.
+   Falling behind isn't fun.
+
+Throughout the day, we will create a PostgreSQL database and add to it,
+covering the basic SQL commands. Expect a short introduction to the command,
+followed by learning how it works via practice.
+
+Some commands and concepts we'll cover:
 
 - `create`
 - `select` columns and `*`
@@ -46,8 +55,10 @@ through more difficult data challenges.
 ### 3:00 Data Modeling Exercises
 
 We will model one or more of the projects described in
-[data_modeling/exercise.md](data_modeling/exercise.md).
+[data_modeling/exercise.md][exercise]
 
 ### 4:00 Q & A
 
 ### 4:30 Homework assigned by instructor
+
+[exercise]: data_modeling/exercise.md
