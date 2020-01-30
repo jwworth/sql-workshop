@@ -1,10 +1,12 @@
 # sql-workshop
 
-This is material for [Hashrocket][hr]'s SQL workshop at Code Platoon. SQL is a
-technology we are passionate about as a company, and we have enjoyed providing
-a hands-on deep-dive into this subject for Code Platoon cohorts over the years.
+This is material for [Hashrocket][hr]'s SQL workshop at [Code Platoon][cp].
 
-Check the [Agenda][agenda] to see how the day will progress.
+At Hashrocket, we 💜 SQL! This engagement has given us many opportunities to
+share that passion, in a practical and hands-on way, with the veterans and
+spouses of Code Platoon.
+
+Check out the [Agenda][agenda] to see how the day will progress.
 
 ### Setup
 
@@ -30,6 +32,7 @@ Open up the `lesson.sql` you find there in your text editor.
 This project is released under the [MIT License][mit].
 
 [agenda]: agenda.md
+[cp]: https://www.codeplatoon.org/
 [hr]: https://hashrocket.com/
 [mit]: http://www.opensource.org/licenses/MIT
 [pg]: https://hashrocket.com/
