@@ -18,7 +18,7 @@ psql (11.1, server 11.6)
 you=#
 ```
 
-We'll be starting with the Phone Book domain.
+We'll start with the Phone Book domain.
 
 ```
 $ git clone https://github.com/jwworth/sql-workshop
