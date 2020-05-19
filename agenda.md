@@ -40,6 +40,11 @@ Some commands and concepts we'll cover:
 - `or`
 - `in`
 
+### 11:00 Data Modeling Exercises
+
+We will model one or more of the projects described in
+[data_modeling/exercise.md][exercise]
+
 ### 12:00 Lunch
 
 ### 1:00 Exercises
@@ -51,11 +56,6 @@ through more difficult data challenges.
 - `join`
 - `null` (advanced)
 - Aggregate functions
-
-### 3:00 Data Modeling Exercises
-
-We will model one or more of the projects described in
-[data_modeling/exercise.md][exercise]
 
 ### 4:00 Q & A
 
