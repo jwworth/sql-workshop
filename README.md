@@ -18,6 +18,9 @@ psql (11.1, server 11.6)
 you=#
 ```
 
+This is really important; please try to have a working PostgreSQL REPL ready
+before we begin!
+
 We'll start with the Phone Book domain.
 
 ```
