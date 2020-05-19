@@ -11,13 +11,13 @@ We'll get to know each other and cover the assigned reading about databases.
 
 *General Advice:*
 
-1. Try typing the commands into the REPL rather than copying and pasting; that
-   is the fastest way to learn! Tab-complete, `CTRL-R`, and `CTRL-P` (the up
+1. Rather than copy-pasting, try typing the commands into the REPL— that's the
+   fastest way to learn! Tab-complete, `CTRL-R` (search) and `CTRL-P` (the 'up'
    arrow) are your friends.
-2. Please maximize your terminal window and your font size! The code should be
-   easy to read.
-3. If you get stuck, let us know! The error message contains the path forward.
-   Falling behind isn't fun.
+2. Please maximize your terminal window and your font size! Code should always
+   be easy to read.
+3. If you get stuck, let us know right away! We want you to succeed today. Best
+   debugging tip: read the error message.
 
 Throughout the day, we will create a PostgreSQL database and add to it,
 covering the basic SQL commands. Expect a short introduction to the command,
