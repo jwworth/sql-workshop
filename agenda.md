@@ -5,7 +5,10 @@ once per hour.
 
 ### 9:00 Greetings and Reading Review
 
-We'll get to know each other and cover the assigned reading about databases.
+We'll get to know each other! Jake and Jack will introduce themselves, and then
+you'll introduce yourself.
+
+Then, we'll cover the assigned reading about databases.
 
 ### 9:30 SQL at the PostgreSQL REPL
 
