@@ -10,7 +10,7 @@ you'll introduce yourself.
 
 Then, we'll cover the assigned reading about databases.
 
-### 9:30 SQL at the PostgreSQL REPL
+### 9:45 SQL at the PostgreSQL REPL
 
 *General Advice:*
 
