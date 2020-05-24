@@ -5,8 +5,8 @@ once per hour.
 
 ### 9:00 Greetings and Reading Review
 
-We'll get to know each other! Jake and Jack will introduce themselves, and then
-you'll introduce yourself.
+We'll get to know each other! We will introduce ourselves, and then you'll
+introduce yourself.
 
 Then, we'll cover the assigned reading about databases.
 
@@ -61,6 +61,9 @@ through more difficult data challenges.
 - Aggregate functions
 
 ### 4:00 Q & A
+
+Question and answer time! We'll answer your questions about SQL, programming,
+consulting, startups, transitioning from the military into technology, etc.
 
 ### 4:30 Homework assigned by instructor
 
