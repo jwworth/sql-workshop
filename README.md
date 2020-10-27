@@ -43,6 +43,12 @@ design and development consultancy](https://hashrocket.com). If you'd like to
 [work with us](https://hashrocket.com/contact-us/hire-us) or [join our
 team](https://hashrocket.com/contact-us/jobs), don't hesitate to get in touch.
 
+<a href="https://www.ccsalespro.com/"><img alt="CCSalesPro logo" src="https://www.ccsalespro.com/wp-content/uploads/2016/04/CCSales-Pro-Logo-Beveled-50.png" height="100">
+</a>
+
+This workshop is also supported by [CCSalesPro](https://www.ccsalespro.com/),
+a provider of training and technology for the merchant services industry.
+
 [agenda]: agenda.md
 [cp]: https://www.codeplatoon.org/
 [hr]: https://hashrocket.com/
