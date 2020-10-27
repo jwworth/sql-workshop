@@ -24,3 +24,8 @@ where date = '2020-10-26';
 select sum(inicucumulative)
 from all_states_history
 where date = '2020-10-26';
+
+--   2.4 How many total patients have been hospitalized?
+select sum(hospitalizedcumulative)
+from all_states_history
+where date = '2020-10-26';
