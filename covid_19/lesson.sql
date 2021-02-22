@@ -11,7 +11,7 @@
 -- https://covidtracking.com/data/download/all-states-history.csv
 
 -- Import Date:
--- 10/26/2020
+-- 02/22/2021
 
 -- Data definitions:
 -- https://covidtracking.com/about-data/data-definitions
@@ -29,7 +29,7 @@
 
 select sum(positive)
 from all_states_history
-where date = '2020-10-26';
+where date = '2021-02-21';
 
 -- Exercise 1:
 --   1.1 How many total deaths have there been?
@@ -39,7 +39,7 @@ where date = '2020-10-26';
 
 select sum(death)::numeric / sum(positive)::numeric
 from all_states_history
-where date = '2020-10-26';
+where date = '2021-02-21';
 
 -- Q: Why is this number so high relative current CDC fatality rate estimates?
 -- A: Incomplete data / asymptomatic cases (https://www.nbc26.com/news/coronavirus/cdc-estimates-covid-19-fatality-rate-including-asymptomatic-cases)

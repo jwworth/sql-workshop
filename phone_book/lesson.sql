@@ -132,8 +132,8 @@ alter table calls
 add foreign key (contact_id) references contacts(id);
 
 -- Try insert again.
-insert into calls(contact_id, call_duration)
-values (99999, '1 hour')
+insert into calls(contact_id, call_start, call_duration)
+values (99999, '2018-05-23 17:09:49', '1 hour')
 returning id;
 
 -- (Almost) always use foreign key constraints.
