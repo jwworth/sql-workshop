@@ -19,8 +19,8 @@ Then, we'll cover the assigned reading about databases.
    arrow) are your friends.
 2. Please maximize your terminal window and your font size! Code should always
    be easy to read.
-3. If you get stuck, let us know right away! We want you to succeed today. Best
-   debugging tip: read the error message.
+3. If you get stuck, let us know right away! We want you to succeed today.
+4. #1 debugging tip: read the error message.
 
 Throughout the day, we will create a PostgreSQL database and add to it,
 covering the basic SQL commands. Expect a short introduction to the command,
