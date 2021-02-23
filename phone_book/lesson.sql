@@ -1,7 +1,7 @@
 -- Create a database.
 -- $ createdb phone_book
 --
--- Import the sample data.
+-- From the phone_book directory, import the sample data.
 -- $ psql -f data/contacts.sql phone_book
 --
 -- Start the psql PostgreSQL client
