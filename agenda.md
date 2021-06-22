@@ -12,16 +12,6 @@ Then, we'll cover the assigned reading about databases.
 
 ### 0945: SQL at the PostgreSQL REPL
 
-*General Advice:*
-
-1. Rather than copy-pasting, try typing the commands into the REPL— that's the
-   fastest way to learn! Tab-complete, `CTRL-R` (search) and `CTRL-P` (the 'up'
-   arrow) are your friends.
-2. Please maximize your terminal window and your font size! Code should always
-   be easy to read.
-3. If you get stuck, let us know right away! We want you to succeed today.
-4. #1 debugging tip: read the error message.
-
 Throughout the day, we will create a PostgreSQL database and add to it,
 covering the basic SQL commands. Expect a short introduction to the command,
 followed by learning how it works via practice.
@@ -42,6 +32,18 @@ Some commands and concepts we'll cover:
 - `and`
 - `or`
 - `in`
+
+*General Advice:*
+
+1. Rather than copy-pasting, try typing the commands into the REPL— that's the
+   fastest way to learn! Tab-complete, `CTRL-R` (search), `CTRL-P` and `CTRL-N`
+   (up and down) are how programmers type quickly and accurately.
+2. Please maximize your terminal window and your font size! Code should always
+   be easy to read.
+3. If you get stuck, let us know right away! We want you to succeed today.
+4. #1 debugging tip: read the error message.
+5. Please ask questions! If something doesn't make sense to you, it's probably
+   a point others would learn from, too.
 
 ### 1200: Lunch
 
