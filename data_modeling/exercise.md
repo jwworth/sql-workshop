@@ -5,7 +5,6 @@ them, consider: how could we model this data, before writing any code?
 
 - PG Casts
 - Hashboard
-- Osoanyi
 - University bookstore
 
 We'll be approaching the problem from a story-first (behavioral) perspective,
