@@ -30,6 +30,14 @@ $ cd sql-workshop/phone_book
 
 Open up the `lesson.sql` you find there in your text editor.
 
+### Additional Resources
+
+You can't beat the official [PostgreSQL docs][pg-docs]. They are about as good
+as documentation gets.
+
+From us, we're proud to have contributed [PG Casts][pgcasts]. This series of
+videos covers in greater detail many of the commands we'll teach today.
+
 ### License
 
 This project is released under the [MIT License][mit].
@@ -53,4 +61,6 @@ a provider of training and technology for the merchant services industry.
 [cp]: https://www.codeplatoon.org/
 [hr]: https://hashrocket.com/
 [mit]: http://www.opensource.org/licenses/MIT
+[pg-docs]: https://www.postgresql.org/docs/
 [pg]: https://www.postgresql.org/
+[pgcasts]: https://pgcasts.com/
