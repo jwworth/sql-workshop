@@ -35,7 +35,7 @@ Some commands and concepts we'll cover:
 
 *General Advice:*
 
-1. Rather than copy-pasting, try typing the commands into the REPL— that's the
+1. Rather than copy-pasting, try typing the commands into `psql`— that's the
    fastest way to learn! Tab-complete, `CTRL-R` (search), `CTRL-P` and `CTRL-N`
    (up and down) are how programmers type quickly and accurately.
 2. Please maximize your terminal window and your font size! Code should always

@@ -1,7 +1,7 @@
 # Data Modeling Exercises
 
-This directory contains some Gherkin-style project stories. Reading through
-them, consider: how could we model this data, before writing any code?
+This directory contains some BDD-style project stories. Reading through them,
+consider: how could we model this data, before writing any code?
 
 - PG Casts
 - Hashboard
@@ -16,8 +16,8 @@ using the E-R (Entity-Relationship) model.
 
 We'll be asking practical questions like:
 
-- Why does each Entity need to have a table?
-- Why does this application need a relational database?
+- Does each Entity need to have a table?
+- Does this application need a relational database?
 
 ### Product Domains
 
