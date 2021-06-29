@@ -53,4 +53,4 @@ a provider of training and technology for the merchant services industry.
 [cp]: https://www.codeplatoon.org/
 [hr]: https://hashrocket.com/
 [mit]: http://www.opensource.org/licenses/MIT
-[pg]: https://hashrocket.com/
+[pg]: https://www.postgresql.org/
