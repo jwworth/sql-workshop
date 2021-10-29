@@ -2,7 +2,7 @@
 
 This is material for [Hashrocket][hr]'s SQL workshop at [Code Platoon][cp].
 
-At Hashrocket, we 💜 SQL! This engagement has given us many opportunities to
+At Hashrocket, we 💙 SQL! This engagement has given us many opportunities to
 share that passion, in a practical and hands-on way, with the veterans and
 spouses of Code Platoon.
 
