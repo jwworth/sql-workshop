@@ -10,25 +10,37 @@ Check out the [Agenda][agenda] to see how the day will progress.
 
 ### Setup
 
-Prerequisites: [PostgreSQL][pg]. If you can enter psql, we're in business:
+Clone the repo:
 
 ```
-$ psql
-psql (11.1, server 11.6)
-you=#
+$ git clone https://github.com/jwworth/sql-workshop
 ```
 
-This is really important; please try to have a working PostgreSQL REPL ready
-before we begin!
+Install [PostgreSQL][pg]. This is really important; please try to have a
+working PostgreSQL REPL ready before we begin!
+
+One way to verify a working Postgres installation
+would be to create and connect to a Postgres database.
+
+```
+$ createdb deleteme
+$ psql deleteme
+
+psql (13.4)
+Type "help" for help.
+
+deleteme=# exit
+
+$ dropdb deleteme
+```
 
 We'll start with the Phone Book domain.
 
 ```
-$ git clone https://github.com/jwworth/sql-workshop
 $ cd sql-workshop/phone_book
 ```
 
-Open up the `lesson.sql` you find there in your text editor.
+Open up the `lesson.sql` in your text editor.
 
 ### Additional Resources
 
