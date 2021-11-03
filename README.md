@@ -19,8 +19,8 @@ $ git clone https://github.com/jwworth/sql-workshop
 Install [PostgreSQL][pg]. This is really important; please try to have a
 working PostgreSQL REPL ready before we begin!
 
-One way to verify a working Postgres installation
-would be to create and connect to a Postgres database.
+One way to verify a working Postgres installation would be to create and
+connect to a Postgres database.
 
 ```
 $ createdb deleteme
