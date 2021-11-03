@@ -45,7 +45,8 @@ Open up the `lesson.sql` in your text editor.
 ### Additional Resources
 
 You can't beat the official [PostgreSQL docs][pg-docs]. They are about as good
-as documentation gets.
+as documentation gets. This [conventions page][pg-conventions] will help you
+read them.
 
 From us, we're proud to have contributed [PG Casts][pgcasts]. This series of
 videos covers in greater detail many of the commands we'll teach today.
@@ -73,6 +74,7 @@ a provider of training and technology for the merchant services industry.
 [cp]: https://www.codeplatoon.org/
 [hr]: https://hashrocket.com/
 [mit]: http://www.opensource.org/licenses/MIT
+[pg-conventions]: https://www.postgresql.org/docs/current/notation.html
 [pg-docs]: https://www.postgresql.org/docs/
 [pg]: https://www.postgresql.org/
 [pgcasts]: https://pgcasts.com/
