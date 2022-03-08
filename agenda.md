@@ -1,7 +1,7 @@
 # Hashrocket / Code Platoon SQL Workshop Agenda
 
-This document outlines the plan for our workshop. We'll be taking a short break
-once per hour.
+This document outlines the plan for our workshop. All times in Central. We'll
+be taking a short break once per hour.
 
 ### 0900: Greetings and Reading Review
 
