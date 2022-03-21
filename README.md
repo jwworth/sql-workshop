@@ -36,16 +36,16 @@ We'll start with the Phone Book domain.
 $ cd sql-workshop/phone_book
 ```
 
-Open up the `lesson.sql` in your text editor.
+Open up `lesson.sql` in your text editor.
 
 ### Additional Resources
 
-You can't beat the official [PostgreSQL docs][pg-docs]. They are about as good
+You can't beat the official [PostgreSQL docs][pg-docs]; they are about as good
 as documentation gets. This [conventions page][pg-conventions] will help you
 read them.
 
-From us, we're proud to have contributed [PG Casts][pgcasts]. This series of
-videos covers in greater detail many of the commands we'll teach today.
+We're proud to have contributed [PG Casts][pgcasts]. This series of videos
+covers in greater detail many of the commands we'll teach today.
 
 ### License
 
