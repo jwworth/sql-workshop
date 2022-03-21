@@ -10,7 +10,7 @@ Check out the [Agenda][agenda] to see how the day will progress.
 
 ### Setup
 
-Clone the repo:
+Clone the repo (no need to fork):
 
 ```
 $ git clone https://github.com/jwworth/sql-workshop
