@@ -1,12 +1,8 @@
 # sql-workshop
 
-This is material for [Hashrocket][hr]'s SQL workshop at [Code Platoon][cp].
+This is material for Jack and Jake's SQL workshop at [Code Platoon][cp].
 
-At Hashrocket, we 💙 SQL! This engagement has given us many opportunities to
-share that passion, in a practical and hands-on way, with the veterans and
-spouses of Code Platoon.
-
-Check out the [Agenda][agenda] to see how the day will progress.
+To see how the day will progress, check out the [Agenda][agenda].
 
 ### Setup
 
@@ -55,23 +51,19 @@ videos covers in greater detail many of the commands we'll teach today.
 
 This project is released under the [MIT License][mit].
 
-### Sponsor
+### Sponsors
 
-[![Hashrocket logo](https://hashrocket.com/hashrocket_logo.svg)](https://hashrocket.com)
+We are grateful to the following sponsors, who continue to support this
+partnership:
 
-This workshop is supported by the team at [Hashrocket, a multidisciplinary
-design and development consultancy](https://hashrocket.com). If you'd like to
-[work with us](https://hashrocket.com/contact-us/hire-us) or [join our
-team](https://hashrocket.com/contact-us/jobs), don't hesitate to get in touch.
-
-<a href="https://www.ccsalespro.com/"><img alt="CCSalesPro logo" src="https://www.ccsalespro.com/wp-content/uploads/2016/04/CCSales-Pro-Logo-Beveled-50.png" height="100">
-</a>
-
-This workshop is also supported by [CCSalesPro](https://www.ccsalespro.com/),
-a provider of training and technology for the merchant services industry.
+- [CCSalesPro][cc]
+- [Framebridge][fb]
+- [Hashrocket][hr]
 
 [agenda]: agenda.md
+[cc]: https://www.ccsalespro.com/
 [cp]: https://www.codeplatoon.org/
+[fb]: https://www.framebridge.com/
 [hr]: https://hashrocket.com/
 [mit]: http://www.opensource.org/licenses/MIT
 [pg-conventions]: https://www.postgresql.org/docs/current/notation.html
