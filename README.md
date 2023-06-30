@@ -1,4 +1,4 @@
-# sql-workshop
+# SQL Workshop
 
 This is material for Jack and Jake's SQL workshop at [Code Platoon][cp].
 

@@ -1,4 +1,4 @@
-# Hashrocket / Code Platoon SQL Workshop Agenda
+# SQL Workshop Agenda
 
 This document outlines the plan for our workshop. All times in Central. We'll
 be taking a short break once per hour.
@@ -33,7 +33,7 @@ Some commands and concepts we'll cover:
 - `or`
 - `in`
 
-*General Advice:*
+💡 **General Advice**
 
 1. Rather than copy-pasting, try typing the commands into `psql`— that's the
    fastest way to learn! Tab-complete, `CTRL-R` (search), `CTRL-P` and `CTRL-N`
