@@ -57,12 +57,14 @@ We are grateful to the following sponsors, who continue to support this
 partnership:
 
 - [CCSalesPro][cc]
+- [Dr. Treat][dr]
 - [Framebridge][fb]
 - [Hashrocket][hr]
 
 [agenda]: agenda.md
 [cc]: https://www.ccsalespro.com/
 [cp]: https://www.codeplatoon.org/
+[dr]: https://www.drtreat.com/
 [fb]: https://www.framebridge.com/
 [hr]: https://hashrocket.com/
 [mit]: http://www.opensource.org/licenses/MIT
