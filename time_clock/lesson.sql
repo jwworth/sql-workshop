@@ -34,14 +34,14 @@ create table worked_shifts (
 );
 
 -- Foreign keys should almost always be indexed.
--- https://www.postgresql.org/docs/13/sql-createindex.html
+-- https://www.postgresql.org/docs/current/sql-createindex.html
 create index on worked_shifts (employee_id);
 
 -- Insert our first shift.
 insert into worked_shifts (employee_id, time_range) values (1, tstzrange('2018-09-14 09:00:00', '2018-09-14 14:00:00'));
 
 -- Bonus - Ensure one employee cannot have overlapping shifts
--- https://www.postgresql.org/docs/13/sql-createextension.html
+-- https://www.postgresql.org/docs/current/sql-createextension.html
 create extension btree_gist;
 alter table worked_shifts add constraint prevent_overlapping_shifts exclude using gist (employee_id with =, time_range with &&);
 
@@ -78,7 +78,7 @@ from worked_shifts;
 delete from worked_shifts;
 
 -- The generate_series function can give us a table of timestamps for the last month.
--- https://www.postgresql.org/docs/13/functions-srf.html
+-- https://www.postgresql.org/docs/current/functions-srf.html
 select *
 from generate_series(current_date - 30, current_date, '1 day') d;
 
@@ -135,7 +135,7 @@ from worked_shifts;
 -- How could we find employees who have worked more than N hours in aggregate?
 
 -- The HAVING clause is like a WHERE that filters after the GROUP BY has occurred.
--- https://www.postgresql.org/docs/13/sql-select.html#SQL-HAVING
+-- https://www.postgresql.org/docs/current/sql-select.html#SQL-HAVING
 select last_name, first_name, sum(upper(time_range) - lower(time_range))
 from worked_shifts
   join employees on employees.id=worked_shifts.employee_id
