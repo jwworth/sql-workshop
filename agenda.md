@@ -10,7 +10,7 @@ introduce yourself.
 
 Then, we'll cover the assigned reading about databases.
 
-### 0945: SQL at the PostgreSQL REPL
+### 1000: SQL at the PostgreSQL REPL
 
 Throughout the day, we will create a PostgreSQL database and add to it,
 covering the basic SQL commands. Expect a short introduction to the command,
