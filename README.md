@@ -21,8 +21,7 @@ connect to a Postgres database.
 ```
 $ createdb deleteme
 $ psql deleteme
-
-psql (13.4)
+psql (15.3)
 Type "help" for help.
 
 deleteme=# exit
